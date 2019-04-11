@@ -1,0 +1,25 @@
+.project {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+}
+
+.project-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.project-tasks {
+  padding: 10px;
+  background-color: #efefef;
+}
+.project-tasks__column {
+  display: inline-block;
+  min-width: 500px;
+  min-height: 200px;
+  vertical-align: top;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ddd;
+}

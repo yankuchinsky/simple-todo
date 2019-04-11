@@ -1,0 +1,44 @@
+.task {
+  width: 500px;
+  margin-top: 10px;
+}
+
+.task-name {
+  width: 200px;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.description-togle-button {
+  border-left: 2px solid #aaa;
+  border-top: 2px solid #aaa;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  text-align: right;
+  margin-left: 10px;
+  transform: rotate(225deg);
+}
+
+.description-togle-button__opened {
+  margin-top: 10px;
+  transform: rotate(45deg);
+}
+
+.status {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 2px;
+  border: 1px solid #000;
+}
+
+.status__done {
+  background-color: #453eee;
+}

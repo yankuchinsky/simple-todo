@@ -1,0 +1,9 @@
+.task-form {
+  width: 500px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.task-form__input {
+  width: 300px;
+  margin: 10px;
+}
